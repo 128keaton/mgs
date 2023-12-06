@@ -7,21 +7,24 @@
       * {
         overscroll-behavior: none;
       }
+      html: {
+    padding: 0;
+    margin: 0;
+      }
   body {
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
+        display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
 
       .main-frame {
         transform: rotate(180deg);
-        width: 90vw;
-        height: 90vh;
+        flex: 1;
       }
 </style>
-
-
-<iframe class="main-frame" src="https://www.memphis.edu/cs/people/faculty_pages/max-garzon.php">
-    <iframe src="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=438580">
-
+      <iframe class="main-frame" src="https://www.memphis.edu/cs/people/faculty_pages/max-garzon.php">
   </body>
 </html>
